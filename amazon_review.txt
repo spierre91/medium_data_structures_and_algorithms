@@ -1,0 +1,28 @@
+Python Cookbook goes in depth on a variety of different Python topics. Each section is similar to a question that might be asked on Stack Overflow. The recipes range in difficulty from easy to advanced metaprogramming.
+
+One particular recipe that I liked was 9.1 on how to time a function. When I am using Python I often need to time the code, and usually I need to look up how to do it. This example created a decorator function for timing. It makes it so that you can just put @timethis on top of a function and see how long it takes to execute. I appreciated how elegant this solution was as opposed to the way I was implementing it.
+
+Most examples are self contained and all the code examples that I tried worked. 
+Additionally, there is a GitHub that the authors created which provides all the code for the examples if you do not want type it yourself. The examples themselves were applied to real world problems; I could see how the recipe was used clearly. When the authors felt they could not provide an entire solution in the text, they point the correct place to visit online.
+
+
+The range in topics was impressive. I found the most challenging chapters to be 9, 12, and 15 which were on metaprogramming, concurrency, and C Extensions. At the beginning of the book the recipes cover topics you would expect like data structures and algorithms, strings, and generators. I found myself surprised that I had not seen a lot of the techniques and solutions before. They were well crafted solutions, and I appreciated how much time and detail the authors must have spent to gather the information.
+
+This is a great reference to have by your side when programming in Python.
+
+
+I finished a beginner Python book a while ago (Python Crash Course) and struggled a bit with what to learn afterwards. But I have been really enjoying this book so far. The bite-sized problems and Pythonic solutions are a great format for learning code... since it's in small portions, you don't get frustrated, and you can stop if your brain is overloaded. I also like how he'll go through multiple solutions, and explain which one is best for the situation. I think this book's format is much better for an intermediate Python coder than something where you're just copying and pasting code projects.
+
+
+This is certainly not for beginners, but it is an extremely handy reference for how to do most tasks of various levels of madness in python. The discussions are brief, but thorough enough to give you a solid grasp on the particular snippet of code. It's also great for showing pythonic ways of utilizing the tools at hand. It does not motivate these tasks, you need to know what you're looking for, but even a brief read-through can shine light on things you never thought were possible in the standard library.
+
+5 stars for those wanting to understand the under-the-hood mechanics of python as well as mad-scientists testing their limits. 2-stars for beginners, as the first few chapters might be useful, but will largely go over the heads of those just getting started.
+
+Honestly, the best book on Python I’ve seen (4 years experience, myself). David Beazley is hands down my favorite “instructor,” and I’m re-purchasing the book because I destroyed my old one from highlighting/writing etc all over it.
+
+What’s great are the little explanations of specific stuff and the details that provide a great background-info (like when you’d want to specifically use type.__init__ and not type.__new__ in a metaclass,), and will give full examples, even to a “ridiculous” end to show how it can be done (ie super complicated single meta programming call vs piecemeal with decorators), but since it does the same thing it helps to illustrate that there’s usually an alternative way to do a very specific thing if you need it.
+
+P.S. check out the authors webpage as he has pdf and slides of great info/resources. It’s just as useful (Though not as broad) as the book.
+
+P.P.S. if you’re looking at other books, I don’t recommend the “essential python reference.” You’d be just as good with the general docs.
+
